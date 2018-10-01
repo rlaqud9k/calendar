@@ -9,8 +9,8 @@ public class Calendar1 {
 //		Date now = new Date();
 //		System.out.print(now.getYear());
 		Calendar now1= Calendar.getInstance();
-		int year = now1.get(Calendar.YEAR);//¸â¹öº¯¼ö¸¸ ¿Ã ¼ö ÀÖÀ½ Á¤È®È÷´Â ½ºÅÂÆ½.
-		int month = now1.get(Calendar.MONTH);//--->0ÀÌ 1¿ù
+		int year = now1.get(Calendar.YEAR);//ë©¤ë²„ë³€ìˆ˜ë§Œ ì˜¬ ìˆ˜ ìˆìŒ ì •í™•íˆëŠ” ìŠ¤íƒœí‹±(í•„ë“œë³€ìˆ˜)
+		int month = now1.get(Calendar.MONTH);//--->0ì´ 1ì›”
 		int day = now1.get(Calendar.DATE);
 		//GregorianCalendar now2= new GregorianCalendar(2022,11,30);
 		//System.out.println(now2.getWeekYear());
